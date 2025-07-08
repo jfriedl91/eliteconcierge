@@ -30,7 +30,7 @@ const Home = () => {
         }} transition={{
           duration: 0.8
         }}>
-            Ihr Leben. Unser Service.
+            Ihr Leben. Unser Service. This change is made by me.
           </motion.h1>
           <motion.p className="text-3xl md:text-5xl font-serif text-gold mb-8" initial={{
           opacity: 0,
