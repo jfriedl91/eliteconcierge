@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button';
 import { ShieldCheck, Globe, Clock, ArrowRight } from 'lucide-react';
 import PageWrapper from '@/components/PageWrapper';
 import { Link } from 'react-router-dom';
+import React from 'react';
+import { Phone } from 'lucide-react';
 
 const Home = () => {
   return <PageWrapper>
@@ -14,7 +16,14 @@ const Home = () => {
         <link rel="canonical" href="https://elconci.de/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-
+  {/* Hinweis-Banner */}
+      <div className="w-full bg-gold/90 text-background flex items-center justify-center py-2 px-4 shadow-lg z-30 relative">
+        <Phone className="w-5 h-5 mr-2" />
+        <span className="font-semibold tracking-wide">
+          Unsere neue Servicerufnummer:&nbsp;
+          <a href="tel:0800123456789" className="underline hover:text-platinum transition-colors duration-200">0800 123456789</a>
+        </span>
+      </div>
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center text-white px-4">
         <div className="absolute inset-0 bg-black/60 z-10"></div>
