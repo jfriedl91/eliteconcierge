@@ -10,7 +10,7 @@ const PrivacyPage = () => {
       <Helmet>
         <title>Datenschutz | Elite Concierge</title>
         <meta name="description" content="Unsere Datenschutzbestimmungen." />
-        <meta name="robots" content="noindex, follow" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
       <div className="bg-background text-platinum min-h-[calc(100vh-200px)]">
         <div className="container mx-auto py-24 px-4">

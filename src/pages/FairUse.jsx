@@ -9,7 +9,7 @@ const FairUsePage = () => {
         <title>Fair Use Policy | Elite Concierge</title>
         <meta name="description" content="Fair Use Policy für die ELITE- und BESPOKE-Mitgliedschaftspakete bei Elite Concierge." />
         <link rel="canonical" href="https://elconci.de/fair-use-policy" />
-        <meta name="robots" content="noindex, follow" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
       <div className="bg-background text-platinum min-h-screen">
         <div className="container mx-auto py-24 px-4">

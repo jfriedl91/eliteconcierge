@@ -11,7 +11,7 @@ const ImprintPage = () => {
         <title>Impressum | Elite Concierge</title>
         <meta name="description" content="Unser Impressum." />
         <link rel="canonical" href="https://elconci.de/impressum" />
-        <meta name="robots" content="noindex, follow" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
       <div className="bg-background text-platinum min-h-[calc(100vh-200px)]">
         <div className="container mx-auto py-24 px-4">

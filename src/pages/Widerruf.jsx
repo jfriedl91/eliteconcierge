@@ -8,7 +8,7 @@ const WiderrufPage = () => {
       <Helmet>
         <title>Widerrufsbelehrung | ELCONCI</title>
         <meta name="description" content="Lesen Sie die Widerrufsbelehrung von ELCONCI. Erfahren Sie mehr über Ihr Widerrufsrecht bei unseren exklusiven Dienstleistungen." />
-        <meta name="robots" content="noindex, follow" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
       <div className="bg-background text-platinum pt-32 pb-16">
         <div className="container mx-auto px-6">
