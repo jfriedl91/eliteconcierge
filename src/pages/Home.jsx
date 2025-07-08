@@ -24,6 +24,7 @@ const Home = () => {
           <a href="tel:0800123456789" className="underline hover:text-platinum transition-colors duration-200">0800 123456789</a>
         </span>
       </div>
+      
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center text-white px-4">
         <div className="absolute inset-0 bg-black/60 z-10"></div>
