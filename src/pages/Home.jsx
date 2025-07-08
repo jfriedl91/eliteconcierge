@@ -1,10 +1,8 @@
 import React from 'react';
-import { Phone } from 'lucide-react';
-import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ShieldCheck, Globe, Clock, ArrowRight } from 'lucide-react';
+import { ShieldCheck, Globe, Clock, ArrowRight,Phone } from 'lucide-react';
 import PageWrapper from '@/components/PageWrapper';
 import { Link } from 'react-router-dom';
 
