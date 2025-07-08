@@ -41,7 +41,7 @@ const ImprintPage = () => {
             <h3 className="text-xl font-bold text-gold mt-8 mb-4">Kontakt</h3>
             <p className="mb-4">
               Telefon: 06102 5746244<br />
-              <span className="text-xs text-platinum/60 italic">(Kein telefonischer Kundensupport)</span><br /><br />
+              <span className="text-xs text-platinum/60 italic">(24/7 · 365 Tage für Sie erreichbar)</span><br /><br />
               Direktkontakt: <Link to="/kontakt" className="text-gold hover:underline">Kontaktformular</Link><br />
               E-Mail: info@elconci.de<br />
               Web: www.elconci.de
