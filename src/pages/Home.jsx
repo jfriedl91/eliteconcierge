@@ -1,4 +1,6 @@
 import React from 'react';
+import { Phone } from 'lucide-react';
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -14,6 +16,14 @@ const Home = () => {
         <link rel="canonical" href="https://elconci.de/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+ {/* Hinweis-Banner */}
+      <div className="w-full bg-gold/90 text-background flex items-center justify-center py-2 px-4 shadow-lg z-30 relative">
+        <Phone className="w-5 h-5 mr-2" />
+        <span className="font-semibold tracking-wide">
+          Unsere neue Servicerufnummer:&nbsp;
+          <a href="tel:0800123456789" className="underline hover:text-platinum transition-colors duration-200">0800 123456789</a>
+        </span>
+      </div>
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center text-white px-4">
@@ -30,7 +40,7 @@ const Home = () => {
         }} transition={{
           duration: 0.8
         }}>
-            Ihr Leben. Unser Service TEST
+            Ihr Leben. Unser Service 
           </motion.h1>
           <motion.p className="text-3xl md:text-5xl font-serif text-gold mb-8" initial={{
           opacity: 0,
