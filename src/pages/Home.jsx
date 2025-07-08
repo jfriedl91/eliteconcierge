@@ -60,12 +60,12 @@ const Home = () => {
             }}
           >
             <Link to="/mitgliedschaften">
-              <Button size="lg" className="bg-gold text-background font-bold text-lg px-10 py-8 rounded-none hover:bg-platinum hover:shadow-[0_0_20px_theme(colors.gold)] transition-all duration-300 w-full sm:w-auto">
+              <Button size="md" className="bg-gold text-background font-bold text-base sm:text-lg px-6 sm:px-10 py-4 rounded-none hover:bg-platinum hover:shadow-[0_0_20px_theme(colors.gold)] transition-all duration-300 w-full sm:w-auto">
                 Mitgliedschaften entdecken <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
             <Link to="/kontakt">
-              <Button size="lg" variant="outline" className="text-white border-white/50 font-bold text-lg px-10 py-8 rounded-none hover:bg-white hover:text-background transition-all duration-300 w-full sm:w-auto">
+              <Button size="md" variant="outline" className="text-white border-white/50 font-bold text-base sm:text-lg px-6 sm:px-10 py-4 sm:py-8 rounded-none hover:bg-white hover:text-background transition-all duration-300 w-full sm:w-auto">
                 Kostenlose Erstberatung
               </Button>
             </Link>
