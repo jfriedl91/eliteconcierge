@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="none">
+  <defs>
+    <linearGradient id="restored-gold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8D497" />
+      <stop offset="100%" stop-color="#B8860B" />
+    </linearGradient>
+  </defs>
+  <path d="M25 0L50 25L25 50L0 25L25 0Z" fill="none" stroke="url(#restored-gold-gradient)" stroke-width="1"/>
+  <path d="M25 5L45 25L25 45L5 25L25 5Z" fill="#111111" />
+</svg>

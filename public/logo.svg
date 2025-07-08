@@ -1,0 +1,35 @@
+<svg width="250" height="60" viewBox="0 0 250 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="restored-gold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8D497" />
+      <stop offset="100%" stop-color="#B8860B" />
+    </linearGradient>
+  </defs>
+  
+  <style>
+    .elite-text {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 28px;
+      fill: #E5E5E5;
+      letter-spacing: 1px;
+    }
+    .concierge-text {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 14px;
+      fill: #CFAB57;
+      letter-spacing: 4.5px;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <g transform="translate(5, 5) scale(1)">
+    <path d="M25 0L50 25L25 50L0 25L25 0Z" fill="none" stroke="url(#restored-gold-gradient)" stroke-width="1"/>
+    <path d="M25 5L45 25L25 45L5 25L25 5Z" fill="#111111" />
+    <text x="25" y="32" font-family="'Times New Roman', Times, serif" font-size="22" fill="url(#restored-gold-gradient)" text-anchor="middle">E</text>
+  </g>
+  
+  <g transform="translate(70, 15)">
+    <text x="0" y="20" class="elite-text">Elite</text>
+    <text x="0" y="40" class="concierge-text">Concierge</text>
+  </g>
+</svg>
