@@ -21,7 +21,7 @@ const Home = () => {
         <img className="absolute inset-0 w-full h-full object-cover" alt="Elegante Stadt bei Nacht" src="https://images.unsplash.com/photo-1604059375634-556d99ae929f?fm=webp&q=80&w=1920&fit=crop" />
         
         <div className="relative z-20 container mx-auto">
-          <motion.h1 className="text-xl sm:text-4xl md:text-7xl lg:text-8xl font-black mb-1 tracking-tight" initial={{
+          <motion.h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-4 tracking-tight" initial={{
           opacity: 0,
           y: 20
         }} animate={{
@@ -30,9 +30,9 @@ const Home = () => {
         }} transition={{
           duration: 0.8
         }}>
-            Ihr Leben. Unser Service.
+            Ihr Leben. Unser Service. 
           </motion.h1>
-          <motion.p className="text-base sm:text-2xl md:text-5xl font-serif text-gold mb-8" initial={{
+          <motion.p className="text-3xl md:text-5xl font-serif text-gold mb-8" initial={{
           opacity: 0,
           y: 20
         }} animate={{
@@ -60,12 +60,12 @@ const Home = () => {
             }}
           >
             <Link to="/mitgliedschaften">
-              <Button size="md" className="bg-gold text-background font-bold text-base sm:text-lg px-6 sm:px-10 py-4 rounded-none hover:bg-platinum hover:shadow-[0_0_20px_theme(colors.gold)] transition-all duration-300 w-full sm:w-auto">
+              <Button size="lg" className="bg-gold text-background font-bold text-lg px-10 py-8 rounded-none hover:bg-platinum hover:shadow-[0_0_20px_theme(colors.gold)] transition-all duration-300 w-full sm:w-auto">
                 Mitgliedschaften entdecken <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
             <Link to="/kontakt">
-              <Button size="md" variant="outline" className="text-white border-white/50 font-bold text-base sm:text-lg px-6 sm:px-10 py-4 sm:py-8 rounded-none hover:bg-white hover:text-background transition-all duration-300 w-full sm:w-auto">
+              <Button size="lg" variant="outline" className="text-white border-white/50 font-bold text-lg px-10 py-8 rounded-none hover:bg-white hover:text-background transition-all duration-300 w-full sm:w-auto">
                 Kostenlose Erstberatung
               </Button>
             </Link>
