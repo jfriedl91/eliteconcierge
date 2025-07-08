@@ -21,7 +21,7 @@ const Home = () => {
         <img className="absolute inset-0 w-full h-full object-cover" alt="Elegante Stadt bei Nacht" src="https://images.unsplash.com/photo-1604059375634-556d99ae929f?fm=webp&q=80&w=1920&fit=crop" />
         
         <div className="relative z-20 container mx-auto">
-          <motion.h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-4 tracking-tight" initial={{
+          <motion.h1 className="text-xl sm:text-4xl md:text-7xl lg:text-8xl font-black mb-1 tracking-tight" initial={{
           opacity: 0,
           y: 20
         }} animate={{
@@ -32,7 +32,7 @@ const Home = () => {
         }}>
             Ihr Leben. Unser Service.
           </motion.h1>
-          <motion.p className="text-3xl md:text-5xl font-serif text-gold mb-8" initial={{
+          <motion.p className="text-base sm:text-2xl md:text-5xl font-serif text-gold mb-8" initial={{
           opacity: 0,
           y: 20
         }} animate={{
