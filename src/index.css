@@ -93,7 +93,7 @@ body {
     bottom: 10vh !important;
   }
 }
-/* Cookie-Banner maximal sichtbar machen */
+/* Cookie-Banner garantiert über allem */
 .bg-secondary.text-platinum.p-6 {
   z-index: 99999 !important;
   position: fixed !important;
@@ -105,10 +105,16 @@ body {
   box-sizing: border-box !important;
 }
 
-/* Die Button-Leiste ebenfalls fixieren, falls nötig */
+/* Button-Leiste im Banner (optional, falls Buttons komisch aussehen) */
 .bg-secondary.text-platinum.p-6 .flex.flex-col.gap-3.mt-8 {
   z-index: 99999 !important;
   position: static !important;
   width: 100% !important;
 }
 
+/* Chatbot-Overlay liegt darunter */
+#web-chat-widget .rcw-widget-container,
+#web-chat-widget .rcw-conversation-container,
+#web-chat-widget .rcw-main {
+  z-index: 9998 !important;
+}
