@@ -8,6 +8,8 @@ import { useConsent } from '@/contexts/ConsentContext';
 import PageLoader from '@/components/PageLoader';
 import AdminLayout from '@/components/layout/AdminLayout';
 import MemberLayout from '@/components/layout/MemberLayout';
+import ChatbotWidget from "@/components/ChatbotWidget";
+
 
 const HomePage = lazy(() => import('@/pages/Home'));
 const AboutPage = lazy(() => import('@/pages/About'));
@@ -100,6 +102,7 @@ function App() {
       </div>
       <Toaster />
       <CookieConsentBanner />
+      <ChatbotWidget />
     </>
   );
 }
