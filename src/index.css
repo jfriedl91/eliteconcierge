@@ -61,6 +61,7 @@ body {
 }
 #web-chat-widget input,
 #web-chat-widget textarea,
-#web-chat-widget .web-chat-widget__input {
-  color: #18181a !important;      /* Text im Eingabefeld dunkel */
-  caret-color: #18181a !important; /* Blinker/Cursor im Eingabefeld dunkel */
+#web-chat-widget * {
+  color: #18181a !important;
+  caret-color: #18181a !important;
+}
