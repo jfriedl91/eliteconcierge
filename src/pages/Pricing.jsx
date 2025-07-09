@@ -13,6 +13,7 @@ import { FairUseDialog } from '@/components/FairUseDialog';
 import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
 
+
 const tiers = [
   {
     name: 'SMART',
