@@ -65,16 +65,11 @@ body {
   color: #18181a !important;
   caret-color: #18181a !important;
 }
-/* Sende-Button-Icon im Chatbot blau machen */
 #web-chat-widget .rcw-launcher .rcw-close-launcher {
-  filter: brightness(0) saturate(100%) invert(24%) sepia(92%) saturate(2877%) hue-rotate(192deg) brightness(91%) contrast(94%) !important;
-  /* Das ergibt ein hochwertiges, kräftiges Blau aus einem PNG/SVG */
+  filter: invert(27%) sepia(78%) saturate(2596%) hue-rotate(196deg) brightness(92%) contrast(101%) !important;
   transition: filter 0.2s;
 }
-
-/* Hover: Noch dunkleres Blau */
 #web-chat-widget .rcw-launcher:hover .rcw-close-launcher {
-  filter: brightness(0) saturate(100%) invert(13%) sepia(89%) saturate(4586%) hue-rotate(196deg) brightness(92%) contrast(105%) !important;
+  filter: invert(18%) sepia(85%) saturate(3185%) hue-rotate(200deg) brightness(84%) contrast(103%) !important;
   cursor: pointer !important;
 }
-
