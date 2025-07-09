@@ -65,17 +65,23 @@ body {
   color: #18181a !important;
   caret-color: #18181a !important;
 }
-/* Sende-Button im Chatbot-Widget blau färben und bei Hover dunkler machen */
-#web-chat-widget button,
-#web-chat-widget .web-chat-widget__button {
-  background-color: #2364AA !important;   /* Schickes, hochwertiges Blau */
-  color: #fff !important;                 /* Weißer Text/Icons */
+/* Nur der Senden-Button (Papierflieger) wird blau */
+#web-chat-widget .web-chat-widget__send-button {
+  background: transparent !important;        /* Kein blauer Kreis, nur Icon */
   border: none !important;
-  transition: background 0.2s;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-#web-chat-widget button:hover,
-#web-chat-widget .web-chat-widget__button:hover {
-  background-color: #17467C !important;   /* Dunkleres Blau beim Hover */
+/* Nur das Icon (SVG) im Senden-Button blau färben */
+#web-chat-widget .web-chat-widget__send-button svg {
+  fill: #2364AA !important;      /* Elegantes Blau für das Icon */
+  transition: fill 0.2s;
+}
+
+/* Hover: Icon wird noch dunkler */
+#web-chat-widget .web-chat-widget__send-button:hover svg {
+  fill: #17467C !important;
   cursor: pointer !important;
 }
