@@ -10,6 +10,7 @@ import '@fontsource/playfair-display/700.css';
 import '@fontsource/playfair-display/900.css';
 
 import '@/index.css';
+import '@/chatbox.css'
 import { ConsentProvider } from '@/contexts/ConsentContext';
 import { HelmetProvider } from 'react-helmet-async';
 import { MemberAuthProvider } from '@/contexts/MemberAuthContext';
