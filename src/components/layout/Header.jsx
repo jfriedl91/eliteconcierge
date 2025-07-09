@@ -93,7 +93,7 @@ const Header = () => {
 <div className="w-full bg-gold/90 text-background flex items-center justify-center py-2 px-4 shadow z-40" style={{ marginTop: 80 }}>
   <Phone className="w-5 h-5 mr-2" />
   <span className="font-semibold tracking-wide">
-    Unser Concierge-Team ist rund um die Uhr für Sie da:&nbsp;
+    Unser Concierge-Team ist rund um die Uhr für Sie erreichbar:&nbsp;
     <a
       href="tel:061025746244"
       className="underline hover:text-platinum transition-colors duration-200"
