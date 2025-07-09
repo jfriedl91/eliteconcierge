@@ -109,4 +109,29 @@ body {
   left: 0 !important;
   width: 100vw !important;
 }
+/* 1. Chatbot-Widget: niedriger Z-Index */
+#web-chat-widget,
+#web-chat-widget * {
+  z-index: 9998 !important;
+}
+
+/* 2. Cookie-Banner: höchster Z-Index */
+.cookie-consent-banner,
+.cookie-banner,
+#cookie-consent-banner,
+.flex.flex-col.gap-3.mt-8 {
+  z-index: 99999 !important;
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+}
+
+/* 3. (Luxus-Lösung) Chatbot-Widget ausblenden, wenn Banner sichtbar ist */
+.cookie-consent-banner ~ #web-chat-widget,
+.cookie-banner ~ #web-chat-widget,
+#cookie-consent-banner ~ #web-chat-widget,
+.flex.flex-col.gap-3.mt-8 ~ #web-chat-widget {
+  display: none !important;
+}
 
