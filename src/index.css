@@ -93,10 +93,20 @@ body {
     bottom: 10vh !important;
   }
 }
-/* Cookie-Banner immer ganz oben anzeigen (über dem Chatbot) */
+/* Allgemeine Regeln für mögliche Banner-Container */
 .cookie-consent-banner,
 .cookie-banner,
 #cookie-consent-banner {
   z-index: 99999 !important;
   position: fixed !important;
 }
+
+/* Spezifisch für deinen Button-Container */
+.flex.flex-col.gap-3.mt-8 {
+  z-index: 99999 !important;
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+}
+
