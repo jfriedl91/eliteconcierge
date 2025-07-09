@@ -15,7 +15,7 @@ const CookieConsentBanner = () => {
     marketing: false,
   });
 
- if (hasConsented) {
+ if (hasConsented !== null) {
   return null;
 }
 
@@ -25,6 +25,7 @@ const CookieConsentBanner = () => {
   };
   
   const handleDeclineAll = () => {
+    console.log("decline")
     updateConsent(false);
   };
 
