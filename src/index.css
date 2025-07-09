@@ -93,3 +93,10 @@ body {
     bottom: 10vh !important;
   }
 }
+/* Cookie-Banner immer ganz oben anzeigen (über dem Chatbot) */
+.cookie-consent-banner,
+.cookie-banner,
+#cookie-consent-banner {
+  z-index: 99999 !important;
+  position: fixed !important;
+}
