@@ -7,13 +7,16 @@ const COOKIE_CONSENT_KEY = 'cookie-consent-given';
 export function ConsentProvider({ children }) {
   const [hasConsented, setHasConsented] = React.useState(null);
 
+  // Lade beim ersten Rendern den Wert aus dem localStorage (als Boolean oder null)
   React.useEffect(() => {
     try {
       const item = window.localStorage.getItem(COOKIE_CONSENT_KEY);
-      setHasConsented(!!item);
+      if (item === "true") setHasConsented(true);
+      else if (item === "false") setHasConsented(false);
+      else setHasConsented(null);
     } catch (error) {
       console.error("Failed to load consent from localStorage", error);
-      setHasConsented(false);
+      setHasConsented(null);
     }
   }, []);
   
@@ -21,22 +24,15 @@ export function ConsentProvider({ children }) {
     hasConsented,
     updateConsent: (consented) => {
         try {
-            if(consented) {
-                window.localStorage.setItem(COOKIE_CONSENT_KEY, 'true');
-            } else {
-                window.localStorage.removeItem(COOKIE_CONSENT_KEY);
-            }
+            window.localStorage.setItem(COOKIE_CONSENT_KEY, consented ? "true" : "false");
             setHasConsented(consented);
         } catch(error) {
             console.error("Failed to save consent to localStorage", error);
         }
     }
   }), [hasConsented]);
-  
-  if (hasConsented === null) {
-      return null;
-  }
 
+  // WICHTIG: NICHT die ganze App blockieren, sondern nur Banner steuern!
   return React.createElement(ConsentContext.Provider, { value: value }, children);
 };
 
