@@ -15,7 +15,7 @@ const CookieConsentBanner = () => {
     marketing: false,
   });
 
-  if (hasConsented === true || hasConsented === false) {
+ if (hasConsented) {
   return null;
 }
 
