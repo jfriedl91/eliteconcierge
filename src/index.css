@@ -107,12 +107,6 @@ body {
     box-sizing: border-box !important;
   }
 
-  /* Cookie-Banner-Inhalt bleibt ganz oben über allem */
-  .fixed.inset-0.z-50 {
-    z-index: 99998 !important;
-    /* position: fixed ist ohnehin gesetzt */
-  }
-
   /* Chatbot-Widget ausblenden solange Banner sichtbar */
   #root > div.fixed.inset-0.z-50 ~ #web-chat-widget {
     display: none !important;
