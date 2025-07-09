@@ -78,3 +78,18 @@ body {
   filter: brightness(0) saturate(100%) invert(13%) sepia(89%) saturate(4586%) hue-rotate(196deg) brightness(92%) contrast(105%) !important;
   cursor: pointer !important;
 }
+@media (max-width: 600px) {
+  #web-chat-widget .rcw-conversation-container,
+  #web-chat-widget .rcw-widget-container,
+  #web-chat-widget .rcw-main {
+    width: 96vw !important;
+    height: 65vh !important;
+    max-width: 500px !important;
+    max-height: 75vh !important;
+    border-radius: 1.2rem !important;
+    left: auto !important;
+    right: 2vw !important;
+    top: auto !important;
+    bottom: 10vh !important;
+  }
+}
