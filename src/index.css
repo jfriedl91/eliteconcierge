@@ -65,23 +65,16 @@ body {
   color: #18181a !important;
   caret-color: #18181a !important;
 }
-/* Nur der Senden-Button (Papierflieger) wird blau */
-#web-chat-widget .web-chat-widget__send-button {
-  background: transparent !important;        /* Kein blauer Kreis, nur Icon */
-  border: none !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
+/* Sende-Button-Icon im Chatbot blau machen */
+#web-chat-widget .rcw-launcher .rcw-close-launcher {
+  filter: brightness(0) saturate(100%) invert(24%) sepia(92%) saturate(2877%) hue-rotate(192deg) brightness(91%) contrast(94%) !important;
+  /* Das ergibt ein hochwertiges, kräftiges Blau aus einem PNG/SVG */
+  transition: filter 0.2s;
 }
 
-/* Nur das Icon (SVG) im Senden-Button blau färben */
-#web-chat-widget .web-chat-widget__send-button svg {
-  fill: #2364AA !important;      /* Elegantes Blau für das Icon */
-  transition: fill 0.2s;
-}
-
-/* Hover: Icon wird noch dunkler */
-#web-chat-widget .web-chat-widget__send-button:hover svg {
-  fill: #17467C !important;
+/* Hover: Noch dunkleres Blau */
+#web-chat-widget .rcw-launcher:hover .rcw-close-launcher {
+  filter: brightness(0) saturate(100%) invert(13%) sepia(89%) saturate(4586%) hue-rotate(196deg) brightness(92%) contrast(105%) !important;
   cursor: pointer !important;
 }
+
