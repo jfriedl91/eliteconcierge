@@ -105,9 +105,8 @@ body {
     border-radius: 0 !important;
     box-sizing: border-box !important;
   }
-
-  /* Chatbot-Widget AUSBLENDEN solange Banner sichtbar ist */
-  #root > div[style*="z-50"] ~ #web-chat-widget {
+/* Blende den Chatbot einfach immer aus, solange das Banner da ist (sicherer Workaround) */
+  #web-chat-widget {
     display: none !important;
   }
 }
