@@ -45,9 +45,8 @@ function App() {
 
   return (
     <>
-      <div className={`${!hasConsented ? 'pointer-events-none' : ''}`}>
-        <AnimatePresence mode="wait">
-          <Suspense fallback={<PageLoader />}>
+      <AnimatePresence mode="wait">
+  <Suspense fallback={<PageLoader />}>
             <Routes location={location} key={location.pathname}>
               <Route path="/" element={<Layout />}>
                 <Route index element={<HomePage />} />
@@ -99,8 +98,7 @@ function App() {
             </Routes>
           </Suspense>
         </AnimatePresence>
-      </div>
-      <Toaster />
+          <Toaster />
       <CookieConsentBanner />
       <ChatbotWidget />
     </>
