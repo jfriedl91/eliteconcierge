@@ -65,3 +65,17 @@ body {
   color: #18181a !important;
   caret-color: #18181a !important;
 }
+/* Sende-Button im Chatbot-Widget blau färben und bei Hover dunkler machen */
+#web-chat-widget button,
+#web-chat-widget .web-chat-widget__button {
+  background-color: #2364AA !important;   /* Schickes, hochwertiges Blau */
+  color: #fff !important;                 /* Weißer Text/Icons */
+  border: none !important;
+  transition: background 0.2s;
+}
+
+#web-chat-widget button:hover,
+#web-chat-widget .web-chat-widget__button:hover {
+  background-color: #17467C !important;   /* Dunkleres Blau beim Hover */
+  cursor: pointer !important;
+}
