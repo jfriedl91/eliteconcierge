@@ -100,7 +100,8 @@ function App() {
         </AnimatePresence>
           <Toaster />
       <CookieConsentBanner />
-      <ChatbotWidget />
+     
+
     </>
   );
 }
