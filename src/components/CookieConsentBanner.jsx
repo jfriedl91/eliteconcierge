@@ -15,10 +15,9 @@ const CookieConsentBanner = () => {
     marketing: false,
   });
 
- if (hasConsented !== null) {
-  return null;
-}
-
+  if (hasConsented) {
+    return null;
+  }
 
   const handleAcceptAll = () => {
     updateConsent(true);
