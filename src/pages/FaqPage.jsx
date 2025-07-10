@@ -12,7 +12,7 @@ const faqs = [
   {
     question: 'Wie buche ich meine Erstberatung?',
     answer:
-      'Klicken Sie auf „Kostenlose Erstberatung“ im Header oder im Footer, füllen Sie das kurze Formular aus, und unser Team meldet sich umgehend bei Ihnen.',
+      'Besuchen Sie einfach den Kontakt-Button oben rechts, füllen Sie das Formular aus – unser Team meldet sich umgehend bei Ihnen. Oder rufen Sie direkt unseren rund um die Uhr erreichbaren Concierge-Service unter 06102 574 62 44 (Ortstarif) an.',
   },
   {
     question: 'Welche Mitgliedschaftspakete gibt es?',
@@ -25,7 +25,7 @@ const faqs = [
       'SMART ist ideal für Berufstätige & Familien: Termin-, Reise- und Alltagsorganisation sowie Behördenhilfe und Event-Planung.',
   },
   {
-    question: 'Was steckt hinter PRIME?',
+    question: 'Was steckt hinter dem PRIME Paket ?',
     answer:
       'PRIME richtet sich an Unternehmer & Vielreisende mit Premium-Ticketing, Strategie-Calls und Erreichbarkeit während der Geschäftszeiten.',
   },
@@ -47,7 +47,7 @@ const faqs = [
   {
     question: 'Wie kann ich meine Mitgliedschaft kündigen?',
     answer:
-      'Senden Sie uns einfach eine E-Mail an kontakt@elconci.de oder nutzen Sie das Kontaktformular. Wir bestätigen Ihre Kündigung sofort.',
+      'Sie können Ihren Vertrag mit nur einem Klick in Ihrem persönlichen Mitgliederbereich kündigen. Alternativ können Sie eine E-Mail an kontakt@elconci.de senden oder unser Kontaktformular nutzen. Eine postalische Kündigung (z. B. per Einschreiben) ist ebenfalls möglich, aber nicht erforderlich. Die vollständigen Kontaktdaten entnehmen Sie bitte unserem Impressum. Wir bestätigen den Eingang Ihrer Kündigung innerhalb von 24 Stunden per E-Mail.',
   },
   {
     question: 'Wo ist Elite Concierge verfügbar?',
@@ -57,17 +57,17 @@ const faqs = [
   {
     question: 'Welche Sprachen spricht Ihr Team?',
     answer:
-      'Unsere Consultants sind fluent in Deutsch und Englisch, weitere Sprachen können wir bei Bedarf über Partner abdecken.',
+      'Unsere Consultants sprechen fließend Deutsch und Englisch, weitere Sprachen können wir bei Bedarf über Partner abdecken.',
   },
   {
     question: 'Wie sicher sind meine Daten?',
     answer:
-      'Datenschutz und Diskretion stehen bei uns an erster Stelle. Wir arbeiten verschlüsselt und speichern nur notwendige Informationen.',
+      'Datenschutz und Diskretion haben bei uns oberste Priorität. Wir arbeiten nach deutschem Datenschutzrecht mit modernster Verschlüsselung und speichern lediglich die für die Leistungserbringung erforderlichen Daten. Auf Wunsch stellen wir Ihnen gerne eine Vertraulichkeitsvereinbarung (NDA) aus.',
   },
   {
     question: 'Welche Zahlungsmethoden akzeptieren Sie?',
     answer:
-      'Wir akzeptieren alle gängigen Kreditkarten, SEPA-Lastschrift sowie für Geschäftskunden Zahlung auf Rechnung.',
+      'Als Zahlungsmethoden stehen Ihnen alle gängigen Kreditkarten (Visa, Mastercard, American Express), SEPA-Lastschrift und Banküberweisung zur Verfügung. Neukunden bitten wir um Vorauszahlung der ersten Rechnung.',
   },
   {
     question: 'Wie erhalte ich meine Rechnung?',
@@ -92,12 +92,12 @@ const faqs = [
   {
     question: 'Gibt es ein Test- oder Probeangebot?',
     answer:
-      'Auf Anfrage stellen wir Ihnen gerne ein kurzes Test-Mini-Paket zur Verfügung, damit Sie unseren Service kennenlernen können.',
+      'Leider bieten wir kein Testpaket an. Sollten Sie einmal nicht vollumfänglich mit unserem Service zufrieden sein, kontaktieren Sie bitte unsere 24/7-Hotline unter 06102 574 62 44. Wir garantieren Ihnen, gemeinsam eine Lösung zu finden, die Ihren Erwartungen zu 100 % entspricht.',
   },
   {
     question: 'Wie erreiche ich Sie im Notfall?',
     answer:
-      'Nutzen Sie unsere 24/7-Hotline unter 06102 574 62 44 (Ortstarif) oder senden Sie eine E-Mail an support@elconci.de.',
+      'Nutzen Sie unsere 24/7-Hotline unter 06102 574 62 44 (Ortstarif)',
   },
   {
     question: 'Kann ich auch Einzelaufträge buchen?',
