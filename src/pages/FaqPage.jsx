@@ -97,7 +97,7 @@ const faqs = [
   {
     question: 'Wie erreiche ich Sie im Notfall?',
     answer:
-      'Nutzen Sie unsere 24/7-Hotline unter 06102 574 62 44 (Ortstarif)',
+      'Nutzen Sie unsere 24/7-Hotline unter 06102 574 62 44 (Ortstarif).',
   },
   {
     question: 'Kann ich auch Einzelaufträge buchen?',
@@ -122,6 +122,7 @@ export default function FaqPage() {
           content="Häufig gestellte Fragen zu Elite Concierge – Service, Mitgliedschaften, Preise und mehr."
         />
         <link rel="canonical" href="https://elconci.de/faq" />
+          <meta name="robots" content="index, follow" />
       </Helmet>
 
       {/* Hero-Section */}
