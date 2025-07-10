@@ -9,6 +9,7 @@ import PageLoader from '@/components/PageLoader';
 import AdminLayout from '@/components/layout/AdminLayout';
 import MemberLayout from '@/components/layout/MemberLayout';
 import ChatbotWidget from "@/components/ChatbotWidget";
+import FaqPage from '@/pages/FaqPage';
 
 
 const HomePage = lazy(() => import('@/pages/Home'));
@@ -61,6 +62,7 @@ function App() {
                 <Route path="widerruf" element={<WiderrufPage />} />
                 <Route path="blog" element={<BlogPage />} />
                 <Route path="blog/:slug" element={<BlogPostPage />} />
+                <Route path="faq" element={<FaqPage />} />
                 <Route path="dienstleistungsauftrag" element={<DienstleistungsauftragPage />} />
                 <Route path="vertrag-wird-geprueft" element={<VertragWirdGeprueftPage />} />
                 <Route path="brand-assets" element={<BrandAssetsPage />} />

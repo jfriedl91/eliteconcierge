@@ -17,6 +17,10 @@ const Footer = () => {
           <Link to="/mitglieder/login" className="hover:text-gold transition-colors duration-300">
             Mitgliederbereich
           </Link>
+           <span>|</span>
+         <Link to="/faq" className="hover:text-gold transition-colors duration-300">
+           FAQ
+         </Link>
           <span>|</span>
           <Link to="/widerruf" className="hover:text-gold transition-colors duration-300">
             Widerruf
