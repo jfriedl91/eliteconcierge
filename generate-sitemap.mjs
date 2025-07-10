@@ -14,6 +14,7 @@ const staticRoutes = [
   { url: '/agb', changefreq: 'yearly', priority: '0.3' },
   { url: '/fair-use-policy', changefreq: 'yearly', priority: '0.3' },
   { url: '/widerruf', changefreq: 'yearly', priority: '0.3' },
+  { url: '/faq', changefreq: 'monthly', priority: '0.5' },
 ];
 
 const blogRoutes = blogPosts.map(post => ({
