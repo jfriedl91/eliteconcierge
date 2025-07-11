@@ -95,10 +95,10 @@ const Header = () => {
   <span className="font-semibold tracking-wide">
     Unser Concierge-Team ist rund um die Uhr für Sie erreichbar:&nbsp;
     <a
-      href="tel:061025746244"
+      href="tel:08007755007"
       className="underline hover:text-platinum transition-colors duration-200"
     >
-      06102 574 62 44 (Ortstarif)
+      0800 775 50 07 (gebührenfrei)
     </a>
   </span>
 </div>

@@ -12,7 +12,7 @@ const faqs = [
   {
     question: 'Wie buche ich meine Erstberatung?',
     answer:
-      'Besuchen Sie einfach den Kontakt-Button oben rechts, füllen Sie das Formular aus – unser Team meldet sich umgehend bei Ihnen. Oder rufen Sie direkt unseren rund um die Uhr erreichbaren Concierge-Service unter 06102 574 62 44 (Ortstarif) an.',
+      'Besuchen Sie einfach den Kontakt-Button oben rechts, füllen Sie das Formular aus – unser Team meldet sich umgehend bei Ihnen. Oder rufen Sie direkt unseren rund um die Uhr erreichbaren Concierge-Service unter 0800 775 50 07 (gebührenfrei) an.',
   },
   {
     question: 'Welche Mitgliedschaftspakete gibt es?',
@@ -92,12 +92,12 @@ const faqs = [
   {
     question: 'Gibt es ein Test- oder Probeangebot?',
     answer:
-      'Leider bieten wir kein Testpaket an. Sollten Sie einmal nicht vollumfänglich mit unserem Service zufrieden sein, kontaktieren Sie bitte unsere 24/7-Hotline unter 06102 574 62 44. Wir garantieren Ihnen, gemeinsam eine Lösung zu finden, die Ihren Erwartungen zu 100 % entspricht.',
+      'Leider bieten wir kein Testpaket an. Sollten Sie einmal nicht vollumfänglich mit unserem Service zufrieden sein, kontaktieren Sie bitte unsere 24/7-Hotline unter 0800 775 50 07 (gebührenfrei). Wir garantieren Ihnen, gemeinsam eine Lösung zu finden, die Ihren Erwartungen zu 100 % entspricht.',
   },
   {
     question: 'Wie erreiche ich Sie im Notfall?',
     answer:
-      'Nutzen Sie unsere 24/7-Hotline unter 06102 574 62 44 (Ortstarif).',
+      'Nutzen Sie unsere 24/7-Hotline unter 0800 775 50 07 (Ortstarif).',
   },
   {
     question: 'Kann ich auch Einzelaufträge buchen?',
