@@ -399,11 +399,11 @@ const PricingPage = () => {
               Flexibilität und erstklassigen Service, der sich Ihrem Leben
               anpasst.
             </p>
-            <p className="mt-4 text-sm text-platinum/70">
+            {/* <p className="mt-4 text-sm text-platinum/70">
               {customerType === "private"
                 ? "Alle Preise verstehen sich inklusive der gesetzlichen Mehrwertsteuer."
                 : "Alle Preise verstehen sich als Nettopreise zuzüglich der gesetzlichen Umsatzsteuer."}
-            </p>
+            </p> */}
           </motion.div>
 
           <motion.div
