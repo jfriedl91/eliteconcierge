@@ -59,13 +59,13 @@ const ImprintPage = () => {
               Anschrift wie oben
             </p>
 
-            <h3 className="text-xl font-bold text-gold mt-8 mb-4">Online-Streitbeilegung</h3>
-            <p className="mb-4">
-              Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">https://ec.europa.eu/consumers/odr/</a> finden.
-            </p>
-            <p>
-              Wir sind zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle weder verpflichtet noch bereit.
-            </p>
+           # <h3 className="text-xl font-bold text-gold mt-8 mb-4">Online-Streitbeilegung</h3>
+           # <p className="mb-4">
+           #   Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">https://ec.europa.eu/consumers/odr/</a> finden.
+           # </p>
+           # <p>
+           #   Wir sind zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle weder verpflichtet noch bereit.
+           # </p>
 
             <h3 className="text-xl font-bold text-gold mt-8 mb-4">Haftungsausschluss (Disclaimer)</h3>
             <h4 className="text-lg font-semibold text-gold mt-4 mb-2">Haftung für Inhalte</h4>
