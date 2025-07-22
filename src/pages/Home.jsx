@@ -138,8 +138,8 @@ const Home = () => {
             }}
             className="text-center lg:text-5xl py-14 text-3xl lg:px-0 px-4"
           >
-            Wie Funktioniert Der Agent Cs <br className="md:block hidden" />{" "}
-            Service?
+            Wie funktioniert der Service von <br className="md:block hidden" />{" "}
+            Elite Concierge?
           </motion.h1>
           <motion.div
             initial={{
