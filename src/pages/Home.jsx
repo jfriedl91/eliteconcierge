@@ -184,7 +184,7 @@ const Home = () => {
               </div>
               <h1 className="mt-6 mb-2 text-2xl">ZEIT SPAREN</h1>
               <p className="text-sm  leading-6">
-                Und schon profitieren Sie von Zeitersparnis und größerer Flexibilitä.
+                Und schon profitieren Sie von Zeitersparnis und größerer Flexibilität.
               </p>
             </div>
           </motion.div>
