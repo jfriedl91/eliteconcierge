@@ -163,19 +163,19 @@ const Home = () => {
               <div className="bg-white w-14 h-14 flex items-center justify-center rounded-full">
                 <Send color="#967B4F" size={34} />
               </div>
-              <h1 className="mt-6 mb-2 text-2xl">Kontakt</h1>
+              <h1 className="mt-6 mb-2 text-2xl">ANFRAGE</h1>
               <p className="text-sm  leading-6">
-                Ein Anruf oder eine E-Mail genügt. Sie kontaktieren uns ganz
-                unkompliziert und schildern uns Ihr Anliegen.
+                Ein kurzer Anruf oder eine E-Mail reicht aus. Kontaktieren Sie uns ganz
+                einfach und teilen uns Ihr Anliegen mit.
               </p>
             </div>
             <div>
               <div className="bg-white w-14 h-14 flex items-center justify-center rounded-full">
                 <Headphones color="#967B4F" size={34} />
               </div>
-              <h1 className="mt-6 mb-2 text-2xl">RÜCKMELDUNG</h1>
+              <h1 className="mt-6 mb-2 text-2xl">FEEDBACK</h1>
               <p className="text-sm  leading-6">
-                Ein Personal Assistant aus unserem Team meldet sich bei Ihnen
+                Ihr persönlicher Concierge meldet sich bei Ihnen
                 und bespricht mit Ihnen die Möglichkeiten.
               </p>
             </div>
@@ -185,8 +185,7 @@ const Home = () => {
               </div>
               <h1 className="mt-6 mb-2 text-2xl">ZEIT SPAREN</h1>
               <p className="text-sm  leading-6">
-                Schon kann es losgehen, in puncto Zeit sparen und mehr Freiheit
-                gewinnen.
+                Und schon profitieren Sie von Zeitersparnis und größerer Flexibilitä.
               </p>
             </div>
           </motion.div>
