@@ -326,14 +326,13 @@ const PricingPage = () => {
                                 <>
                                   <Check className="h-5 w-5 text-gold mr-3 mt-1 flex-shrink-0" />
                                   <span className="text-platinum/90 text-sm">
-                                    Unlimitierte Anfragen (
+                                    Unlimitierte Anfragen
                                     <button
                                       onClick={() => setIsFairUseOpen(true)}
                                       className="text-gold hover:underline"
                                     >
-                                      Fair Use
+                                      (Fair Use)
                                     </button>
-                                    )
                                   </span>
                                 </>
                               ) : (
