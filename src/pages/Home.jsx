@@ -175,8 +175,7 @@ const Home = () => {
               </div>
               <h1 className="mt-6 mb-2 text-2xl">FEEDBACK</h1>
               <p className="text-sm  leading-6">
-                Ihr persönlicher Concierge meldet sich bei Ihnen
-                und bespricht mit Ihnen die Möglichkeiten.
+                Ihr persönlicher Concierge setzt sich mit Ihnen in Verbindung, um die Möglichkeiten mit Ihnen zu besprechen.
               </p>
             </div>
             <div>
