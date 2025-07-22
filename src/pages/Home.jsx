@@ -208,12 +208,14 @@ const Home = () => {
             }}
             className="text-center pb-14"
           >
-            <Button
-              size="lg"
-              className="text-white mt-14  font-bold bg-[#967B4F] text-lg px-10 py-8 rounded-none hover:bg-white hover:text-background transition-all duration-300 w-auto mx-auto"
-            >
-              JETZT KONTAKTIEREN
-            </Button>
+            <Link to="/kontakt">
+              <Button
+                size="lg"
+                className="text-white mt-14  font-bold bg-[#967B4F] text-lg px-10 py-8 rounded-none hover:bg-white hover:text-background transition-all duration-300 w-auto mx-auto"
+              >
+                JETZT KONTAKTIEREN
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>
