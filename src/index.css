@@ -61,63 +61,6 @@ body {
   color: #e5e4e2;
 }
 
-.border-button {
-  position: relative; /* Required for absolute positioning */
-  z-index: 0; /* Ensure content stays above the gradient */
-  border: none !important; /* Remove default border (if any) */
-  background: transparent !important; /* Ensure no background interferes */
-}
-
-.border-button::before {
-  content: "";
-  position: absolute;
-  top: -2px; /* Adjust for border thickness */
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background: linear-gradient(
-    45deg,
-    #fb0094,
-    #0000ff,
-    #00ff00,
-    #ffff00,
-    #ff0000,
-    #fb0094,
-    #0000ff,
-    #00ff00,
-    #ffff00,
-    #ff0000
-  );
-  background-size: 400%;
-  z-index: -1;
-  border-radius: 9999px; /* Match button's rounded-full */
-  animation: steam 20s linear infinite;
-}
-
-.border-button::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: inherit; /* Match button's actual background */
-  border-radius: 9999px;
-  z-index: -1;
-}
-
-@keyframes steam {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
 @keyframes rgb-glow {
   0% {
     border-color: #ff0000;
