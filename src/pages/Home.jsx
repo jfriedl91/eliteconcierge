@@ -22,6 +22,7 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { Link } from "react-router-dom";
+import { heroSection, mountain } from "../assets";
 
 const Home = () => {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -44,7 +45,7 @@ const Home = () => {
         <img
           className="absolute inset-0 w-full h-full object-cover"
           alt="Elegante Stadt bei Nacht"
-          src="https://images.unsplash.com/photo-1604059375634-556d99ae929f?fm=webp&q=80&w=1920&fit=crop"
+          src={heroSection}
         />
 
         <motion.div
@@ -146,7 +147,7 @@ const Home = () => {
         className="relative uppercase"
         style={{
           backgroundImage: `url(
-            "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ${mountain}
           )`,
           backgroundSize: "cover",
         }}

@@ -15,13 +15,13 @@ const Footer = () => {
         </p>
         <div className="flex justify-center gap-4 text-sm text-platinum/60 flex-wrap">
           <span>© 2025 Elite Concierge</span>
-          <span>|</span>
+          {/* <span>|</span>
           <Link
             to="/mitglieder/login"
             className="hover:text-gold transition-colors duration-300"
           >
             Mitgliederbereich
-          </Link>
+          </Link> */}
           <span>|</span>
           <Link
             to="/faq"
@@ -50,13 +50,13 @@ const Footer = () => {
           >
             Datenschutz
           </Link>
-          <span>|</span>
+          {/* <span>|</span>
           <Link
             to="/agb"
             className="hover:text-gold transition-colors duration-300"
           >
             AGB
-          </Link>
+          </Link> */}
           <span>|</span>
           <Link
             to="/impressum"
