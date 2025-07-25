@@ -445,7 +445,7 @@ const PricingPage = () => {
             />
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
@@ -467,7 +467,7 @@ const PricingPage = () => {
                 Jetzt Mitglied werden
               </Button>
             </Link>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
       <Dialog open={isFormOpen} onOpenChange={setIsFormOpen}>

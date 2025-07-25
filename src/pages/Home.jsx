@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -14,9 +14,18 @@ import {
   Headphones,
 } from "lucide-react";
 import PageWrapper from "@/components/PageWrapper";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
   return (
     <PageWrapper>
       <Helmet>
@@ -37,6 +46,30 @@ const Home = () => {
           alt="Elegante Stadt bei Nacht"
           src="https://images.unsplash.com/photo-1604059375634-556d99ae929f?fm=webp&q=80&w=1920&fit=crop"
         />
+
+        <motion.div
+          className=" absolute z-30  left-14"
+          initial={{
+            opacity: 0,
+            top: 120,
+          }}
+          animate={{
+            opacity: 1,
+            top: 70,
+          }}
+          transition={{
+            duration: 0.8,
+          }}
+          onClick={() => setIsFormOpen(true)}
+        >
+          <Button
+            size="lg"
+            variant="outline"
+            className="text-white border-white/50 font-bold text-lg px-10 py-8 rounded-full hover:bg-white hover:text-background transition-all duration-300 w-full sm:w-auto"
+          >
+            Was wir bieten
+          </Button>
+        </motion.div>
 
         <div className="relative z-20 container mx-auto">
           <motion.h1
@@ -165,8 +198,8 @@ const Home = () => {
               </div>
               <h1 className="mt-6 mb-2 text-2xl">ANFRAGE</h1>
               <p className="text-sm  leading-6">
-                Ein kurzer Anruf oder eine E-Mail reicht aus. Kontaktieren Sie uns ganz
-                einfach und teilen uns Ihr Anliegen mit.
+                Ein kurzer Anruf oder eine E-Mail reicht aus. Kontaktieren Sie
+                uns ganz einfach und teilen uns Ihr Anliegen mit.
               </p>
             </div>
             <div>
@@ -175,7 +208,8 @@ const Home = () => {
               </div>
               <h1 className="mt-6 mb-2 text-2xl">FEEDBACK</h1>
               <p className="text-sm  leading-6">
-                Ihr persönlicher Concierge setzt sich mit Ihnen in Verbindung, um die Möglichkeiten mit Ihnen zu besprechen.
+                Ihr persönlicher Concierge setzt sich mit Ihnen in Verbindung,
+                um die Möglichkeiten mit Ihnen zu besprechen.
               </p>
             </div>
             <div>
@@ -184,7 +218,8 @@ const Home = () => {
               </div>
               <h1 className="mt-6 mb-2 text-2xl">ZEIT SPAREN</h1>
               <p className="text-sm  leading-6">
-                Und schon profitieren Sie von Zeitersparnis und größerer Flexibilität.
+                Und schon profitieren Sie von Zeitersparnis und größerer
+                Flexibilität.
               </p>
             </div>
           </motion.div>
@@ -325,6 +360,61 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Dialog open={isFormOpen} onOpenChange={setIsFormOpen}>
+        <DialogContent className="max-w-3xl p-0 flex flex-col w-[95%] sm:w-full max-h-[90vh] sm:max-h-[85vh]">
+          <DialogHeader className="p-6 pb-4 flex-shrink-0">
+            <DialogTitle>
+              Exklusive Zeitgewinne durch den Service von Elite Concierge
+            </DialogTitle>
+            <DialogDescription>
+              Im Zeitalter von Geschwindigkeit und ständiger Erreichbarkeit ist
+              Zeit der wahre Luxus.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="flex-grow overflow-y-auto min-h-0">
+            <div className="p-6 pt-0 space-y-4 text-sm leading-relaxed text-muted-foreground">
+              <p>
+                Unser <strong>Elite Concierge Service</strong> verschafft Ihnen
+                Zugang zu dieser wertvollsten Ressource –{" "}
+                <em>diskret, effizient und auf höchstem Niveau</em>.
+              </p>
+
+              <p>
+                Als anspruchsvolle Persönlichkeit wissen Sie:{" "}
+                <strong>Zeit ist ein Privileg</strong>, das sich nicht vermehren
+                lässt.
+              </p>
+
+              <blockquote className="border-l-2 pl-4 italic text-muted-foreground">
+                Wie schon Seneca erkannte:
+                <br />
+                <strong>„Tempus fugit.“</strong>
+                <br />
+                <em>Die Zeit flieht.</em>
+              </blockquote>
+
+              <p>
+                Unser exklusiver Concierge Service ist darauf ausgerichtet,
+                Ihnen diese Freiheit zu schenken.
+              </p>
+
+              <p>
+                Wir übernehmen für Sie sämtliche zeitintensive Aufgaben und
+                Wünsche – individuell, zuverlässig und mit größter Sorgfalt. So
+                gewinnen Sie Freiräume für das, was Ihnen wirklich am Herzen
+                liegt: Ihre persönlichen Prioritäten, Ihre Leidenschaft, Ihr
+                Leben.
+              </p>
+
+              <p className="font-semibold text-foreground">
+                Genießen Sie mit dem Elite Concierge Service eine neue Dimension
+                von Zeit und Lebensqualität – maßgeschneidert, erstklassig,{" "}
+                <em>unvergleichlich</em>.
+              </p>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
     </PageWrapper>
   );
 };
