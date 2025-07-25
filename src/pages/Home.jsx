@@ -39,7 +39,7 @@ const Home = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative h-screen flex sm:items-center sm:pt-0 pt-20 justify-center text-center text-white px-4">
+      <section className="relative sm:h-screen flex sm:items-center sm:py-0 py-20 justify-center text-center text-white px-4">
         <div className="absolute inset-0 bg-black/60 z-10"></div>
         <img
           className="absolute inset-0 w-full h-full object-cover"
