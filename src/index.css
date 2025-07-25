@@ -8,29 +8,29 @@
 
   --card: 0 0% 7%;
   --card-foreground: 60 8% 89%;
- 
+
   --popover: 0 0% 7%;
   --popover-foreground: 60 8% 89%;
- 
+
   --primary: 60 8% 89%;
   --primary-foreground: 46 53% 58%; /* Gold text on primary */
- 
+
   --secondary: 0 0% 15%; /* Darker gray */
   --secondary-foreground: 60 8% 89%;
- 
+
   --muted: 0 0% 15%;
   --muted-foreground: 60 4% 65%;
- 
+
   --accent: 0 0% 15%;
   --accent-foreground: 60 8% 89%;
- 
+
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 60 8% 89%;
 
   --border: 0 0% 15%;
   --input: 0 0% 15%;
   --ring: 46 53% 58%; /* Gold */
- 
+
   --radius: 0.5rem;
 }
 
@@ -40,9 +40,14 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-serif;
   }
 }
@@ -53,6 +58,85 @@ html {
 
 body {
   background-color: #111111;
-  color: #E5E4E2;
+  color: #e5e4e2;
 }
 
+.border-button {
+  position: relative; /* Required for absolute positioning */
+  z-index: 0; /* Ensure content stays above the gradient */
+  border: none !important; /* Remove default border (if any) */
+  background: transparent !important; /* Ensure no background interferes */
+}
+
+.border-button::before {
+  content: "";
+  position: absolute;
+  top: -2px; /* Adjust for border thickness */
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(
+    45deg,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000
+  );
+  background-size: 400%;
+  z-index: -1;
+  border-radius: 9999px; /* Match button's rounded-full */
+  animation: steam 20s linear infinite;
+}
+
+.border-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit; /* Match button's actual background */
+  border-radius: 9999px;
+  z-index: -1;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes rgb-glow {
+  0% {
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+  }
+  33% {
+    border-color: #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+  }
+  66% {
+    border-color: #0000ff;
+    box-shadow: 0 0 10px #0000ff;
+  }
+  100% {
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+  }
+}
+
+.glow-border {
+  animation: rgb-glow 3s linear infinite;
+}

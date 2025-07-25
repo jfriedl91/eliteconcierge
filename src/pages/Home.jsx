@@ -48,14 +48,14 @@ const Home = () => {
         />
 
         <motion.div
-          className=" absolute z-30  left-14"
+          className=" fixed z-30 left-4 bottom-5"
           initial={{
             opacity: 0,
-            top: 120,
+            bottom: 0,
           }}
           animate={{
             opacity: 1,
-            top: 70,
+            bottom: 20,
           }}
           transition={{
             duration: 0.8,
@@ -65,7 +65,7 @@ const Home = () => {
           <Button
             size="lg"
             variant="outline"
-            className="text-white border-white/50 font-bold text-lg px-10 py-8 rounded-full hover:bg-white hover:text-background transition-all duration-300 w-full sm:w-auto"
+            className="text-white border-[3px] font-bold text-lg px-10 py-8 rounded-full  transition-all duration-300 w-full sm:w-auto glow-border"
           >
             Was wir bieten
           </Button>
