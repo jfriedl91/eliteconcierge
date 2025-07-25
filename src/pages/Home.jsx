@@ -39,7 +39,7 @@ const Home = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center text-center text-white px-4">
+      <section className="relative h-screen flex sm:items-center sm:pt-0 pt-20 justify-center text-center text-white px-4">
         <div className="absolute inset-0 bg-black/60 z-10"></div>
         <img
           className="absolute inset-0 w-full h-full object-cover"
@@ -73,7 +73,7 @@ const Home = () => {
 
         <div className="relative z-20 container mx-auto">
           <motion.h1
-            className="text-5xl md:text-7xl lg:text-8xl font-black mb-4 tracking-tight"
+            className="text-4xl md:text-7xl lg:text-8xl font-black mb-4 tracking-tight"
             initial={{
               opacity: 0,
               y: 20,
@@ -89,7 +89,7 @@ const Home = () => {
             Ihr Leben. Unser Service
           </motion.h1>
           <motion.p
-            className="text-3xl md:text-5xl font-serif text-gold mb-8"
+            className="text-2xl md:text-5xl font-serif text-gold mb-8"
             initial={{
               opacity: 0,
               y: 20,
@@ -123,7 +123,7 @@ const Home = () => {
             <Link to="/mitgliedschaften">
               <Button
                 size="lg"
-                className="bg-gold text-background font-bold text-lg px-10 py-8 rounded-none hover:bg-platinum hover:shadow-[0_0_20px_theme(colors.gold)] transition-all duration-300 w-full sm:w-auto"
+                className="bg-gold text-background font-bold sm:text-lg px-10 py-8 rounded-none hover:bg-platinum hover:shadow-[0_0_20px_theme(colors.gold)] transition-all duration-300 w-full sm:w-auto"
               >
                 Mitgliedschaften entdecken{" "}
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -133,7 +133,7 @@ const Home = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-white border-white/50 font-bold text-lg px-10 py-8 rounded-none hover:bg-white hover:text-background transition-all duration-300 w-full sm:w-auto"
+                className="text-white border-white/50 font-bold sm:text-lg px-10 py-8 rounded-none hover:bg-white min-w-[291px] hover:text-background transition-all duration-300 w-full sm:w-auto"
               >
                 Kostenlose Erstberatung
               </Button>
