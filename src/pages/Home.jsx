@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <PageWrapper>
       <Helmet>
-        <title>Elite Concierge:Premium privater und Business Concierge Service</title>
+        <title>Elite Concierge: Business Concierge & privater Concierge Service sowie exklusiver persönlicher Service</title>
         <meta
           name="description"
           content="Exklusiver Concierge-Service. Ihr Leben. Unser Service. Ihre Zeit zählt. Buchen Sie noch heute Ihre Erstberatung."
