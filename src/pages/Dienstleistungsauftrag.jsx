@@ -182,7 +182,7 @@ const DienstleistungsauftragPage = () => {
         <title>Dienstleistungsauftrag | ELCONCI</title>
         <meta name="description" content="Schließen Sie Ihren persönlichen Dienstleistungsvertrag für unsere exklusiven Concierge-Services digital ab." />
         <link rel="canonical" href="https://elconci.de/dienstleistungsauftrag" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, nofollow" />
       </Helmet>
       <div className="bg-background text-platinum pt-32 pb-16">
         <div className="container mx-auto px-4 sm:px-6">

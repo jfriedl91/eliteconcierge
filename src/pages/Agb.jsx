@@ -89,7 +89,7 @@ const AgbPage = () => {
         <title>Allgemeine Geschäftsbedingungen | ELCONCI</title>
         <meta name="description" content="Lesen Sie die Allgemeinen Geschäftsbedingungen (AGB) von ELCONCI. Erfahren Sie mehr über die Nutzungsbedingungen unserer exklusiven Dienstleistungen." />
         <link rel="canonical" href="https://elconci.de/agb" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, nofollow" />
       </Helmet>
       <div className="bg-background text-platinum pt-32 pb-16">
         <div className="container mx-auto px-6">
