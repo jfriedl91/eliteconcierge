@@ -273,11 +273,26 @@ const Home = () => {
               duration: 0.8,
             }}
           >
-            Elite Concierge ist Ihr Schlüssel zu einer Welt ohne Grenzen. Wir
-            bieten einen beispiellosen, persönlichen Service, der darauf
-            ausgelegt ist, Ihr Leben zu bereichern, Ihnen wertvolle Zeit zu
-            sparen und Ihnen Zugang zu exklusiven Erlebnissen zu verschaffen,
-            die sonst unerreichbar bleiben würden.
+            Elite Concierge ist Ihr Schlüssel zu einer Welt ohne Grenzen.
+Wir bieten einen beispiellosen, persönlichen Service, der darauf
+ausgelegt ist, Ihr Leben zu bereichern, Ihnen wertvolle Zeit zu
+sparen und Ihnen Zugang zu exklusiven Erlebnissen zu verschaffen,
+die sonst unerreichbar bleiben würden.
+
+Unser privater Concierge Service richtet sich an Menschen,
+die höchste Ansprüche an Qualität, Diskretion und Effizienz stellen.
+Ob luxuriöse Reisen, maßgeschneiderte Events oder individuelle
+Lifestyle-Wünsche – wir kümmern uns um jedes Detail.
+
+Für Geschäftsreisende und Unternehmen bieten wir zudem
+einen professionellen Business Concierge, der den beruflichen
+Alltag spürbar erleichtert – von der Reiseplanung über
+die Koordination wichtiger Termine bis hin zur Betreuung
+von Kunden und Gästen.
+
+Elite Concierge steht für persönliche Betreuung, flexible Lösungen
+und ein internationales Netzwerk, das Ihnen Türen öffnet –
+weltweit, rund um die Uhr und immer einen Schritt voraus.
           </motion.p>
         </div>
       </section>
