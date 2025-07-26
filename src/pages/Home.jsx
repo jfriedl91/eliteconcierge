@@ -273,7 +273,7 @@ const Home = () => {
               duration: 0.8,
             }}
           >
-            <h1><Business Concierge & privater Concierge Service mit exklusiver persönlicher Service Betreuung></h1>
+            <h1>Business Concierge  privater Concierge Service mit exklusiver persönlicher Service Betreuung</h1>
              Elite Concierge steht für außergewöhnliche Unterstützung im Alltag und darüber hinaus.
 Unser persönlicher Service begleitet Sie zuverlässig, schafft Freiräume und nimmt Ihnen Aufgaben ab.
 Ob privater Concierge Service oder Business Concierge – wir ermöglichen Zugang zu besonderen Erlebnissen, die sonst unerreichbar bleiben würden. 
