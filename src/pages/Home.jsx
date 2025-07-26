@@ -279,20 +279,16 @@ ausgelegt ist, Ihr Leben zu bereichern, Ihnen wertvolle Zeit zu
 sparen und Ihnen Zugang zu exklusiven Erlebnissen zu verschaffen,
 die sonst unerreichbar bleiben würden.
 
-Unser privater Concierge Service richtet sich an Menschen,
-die höchste Ansprüche an Qualität, Diskretion und Effizienz stellen.
-Ob luxuriöse Reisen, maßgeschneiderte Events oder individuelle
-Lifestyle-Wünsche – wir kümmern uns um jedes Detail.
+Unser privater Concierge Service steht für höchste Diskretion,
+maßgeschneiderte Lösungen und absolute Verlässlichkeit –
+ganz gleich, ob Sie Reisen planen, Events organisieren oder
+besondere Wünsche realisieren möchten.
 
-Für Geschäftsreisende und Unternehmen bieten wir zudem
-einen professionellen Business Concierge, der den beruflichen
-Alltag spürbar erleichtert – von der Reiseplanung über
-die Koordination wichtiger Termine bis hin zur Betreuung
-von Kunden und Gästen.
+Für Unternehmen bieten wir einen professionellen Business Concierge,
+der Sie bei geschäftlichen Reisen, Terminen oder Kundenanfragen
+effizient und diskret unterstützt.
 
-Elite Concierge steht für persönliche Betreuung, flexible Lösungen
-und ein internationales Netzwerk, das Ihnen Türen öffnet –
-weltweit, rund um die Uhr und immer einen Schritt voraus.
+Elite Concierge – persönlicher Service auf höchstem Niveau.
           </motion.p>
         </div>
       </section>
