@@ -274,8 +274,8 @@ const Home = () => {
             }}
           >
             Elite Concierge ist Ihr Schlüssel zu einer Welt ohne Grenzen.
-Wir bieten einen beispiellosen, persönlichen Service – von
-privatem Concierge Service bis Business Concierge – um Ihnen
+Wir bieten einen beispiellosen, persönlichen Service – von einem exklusiven
+privaten Concierge Service bis hin zum Business Concierge – um Ihnen
 Zeit zu sparen, Wünsche zu erfüllen und Exklusives zugänglich
 zu machen, das sonst unerreichbar bleibt.
           </motion.p>
