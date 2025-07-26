@@ -274,21 +274,10 @@ const Home = () => {
             }}
           >
             Elite Concierge ist Ihr Schlüssel zu einer Welt ohne Grenzen.
-Wir bieten einen beispiellosen, persönlichen Service, der darauf
-ausgelegt ist, Ihr Leben zu bereichern, Ihnen wertvolle Zeit zu
-sparen und Ihnen Zugang zu exklusiven Erlebnissen zu verschaffen,
-die sonst unerreichbar bleiben würden.
-
-Unser privater Concierge Service steht für höchste Diskretion,
-maßgeschneiderte Lösungen und absolute Verlässlichkeit –
-ganz gleich, ob Sie Reisen planen, Events organisieren oder
-besondere Wünsche realisieren möchten.
-
-Für Unternehmen bieten wir einen professionellen Business Concierge,
-der Sie bei geschäftlichen Reisen, Terminen oder Kundenanfragen
-effizient und diskret unterstützt.
-
-Elite Concierge – persönlicher Service auf höchstem Niveau.
+Wir bieten einen beispiellosen, persönlichen Service – von
+privatem Concierge Service bis Business Concierge – um Ihnen
+Zeit zu sparen, Wünsche zu erfüllen und Exklusives zugänglich
+zu machen, das sonst unerreichbar bleibt.
           </motion.p>
         </div>
       </section>
